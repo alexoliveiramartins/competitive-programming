@@ -4,8 +4,8 @@ using namespace std;
 #define ll long long
 
 int main(){
-    int t; cin >> t;
+    int n, t; cin >> t;
     while(t--){
-        
+        cin >> n;
     }
 }
