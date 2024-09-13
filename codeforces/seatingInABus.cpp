@@ -4,12 +4,8 @@ using namespace std;
 #define ll long long
 
 int main(){
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int n, t; 
-    cin >> t;
+    int n, aux, f, t; cin >> t;
     while(t--){
-        cin >> n;
+        
     }
 }
