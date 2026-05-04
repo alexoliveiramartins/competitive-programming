@@ -1,2 +1,4 @@
 .vscode
 *.out
+output/
+solution.cpp
