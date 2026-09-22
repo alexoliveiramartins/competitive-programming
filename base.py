@@ -1,8 +1,8 @@
-n, t = 0
+n = 0
 ans = 0
 
-input(t)
-while t -= 1:
+t = input()
+for _ in range(0, t):
     input(n)
 
 print(ans)
