@@ -1,8 +1,14 @@
-run:
+run-cpp:
 	g++ solution.cpp -o ./output/solution.out && ./output/solution.out < in.txt
-new:
+run-py:
+	python3 solution.py
+new-cpp:
 	mkdir -p output
 	cp base.cpp solution.cpp
+	touch in.txt
+new-py:
+	mkdir -p output
+	cp base.py solution.py
 	touch in.txt
 push:
 	git add . 
