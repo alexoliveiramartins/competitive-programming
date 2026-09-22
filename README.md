@@ -1,6 +1,6 @@
 # competitive-programming
 
-My solutions to competitive programming problems
+My solutions to competitive programming & leetcode problems
 
 ## Profiles
 

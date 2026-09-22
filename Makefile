@@ -10,7 +10,10 @@ new-py:
 	mkdir -p output
 	cp base.py solution.py
 	touch in.txt
+.PHONY: run-cpp run-py new-cpp new-py push push-preview
+
 push:
-	git add . 
-	git commit -m "$$(git diff --cached --name-only -z | xargs -0 -r -n1 basename | sed -E 's/\.[^.]*$$//; s/^([^- ]+).*/\1/' | sort -u | paste -sd ' ' -)"
-	git push
+	python3 scripts/git_push.py
+
+push-preview:
+	python3 scripts/git_push.py --preview
